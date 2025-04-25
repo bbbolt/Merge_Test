@@ -1,0 +1,11 @@
+*.pyc
+.DS_Store
+logs
+__pycache__
+.pytest_cache/
+.idea/
+.project
+bin/.version
+bin/.app_version
+.vscode
+.null

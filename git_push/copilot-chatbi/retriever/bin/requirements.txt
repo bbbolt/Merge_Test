@@ -1,0 +1,7 @@
+tornado 
+requests
+sentence_transformers
+psycopg2-binary
+pandas
+jieba
+rouge

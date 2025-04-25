@@ -1,0 +1,20 @@
+### 基本配置 ###
+# 客户端服务路径（执行样张） #
+client_path: C:\Users\Bolt\Downloads\office6\office6
+# 测试样例路径 #
+dataset:
+  cases_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_sheets\val_all_2k\run_code_result
+  excel_file_path: .\case\AI工具测试-minimax-All.xlsx
+   # 更换设备时，打开标志位，更新校验样张，避免不同设备之间默认值差异，但只需执行一次，因为会使样张执行时长翻倍！ #
+  device_default_change: False
+
+
+### 跑数配置 ###
+val:
+  json_file_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_sheets\val_all_2k\data0906-0815cot-prompt-clean_result.json
+  target_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_sheets\val_all_2k\eval_results
+  worker_number: 16
+
+## 日志记录 ###
+log:
+  log_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_sheets\val_all_2k\logs

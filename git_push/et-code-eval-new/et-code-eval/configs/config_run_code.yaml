@@ -1,0 +1,10 @@
+base_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_sheets\0205_online_train_data
+client_path: C:\Users\Bolt\Downloads\office6\office6
+dataset:
+  cases_root_path: cases
+  cases_save_root_path: run_code_result
+log:
+  log_path: logs
+  xlsx_save_path: run_code_result
+val:
+  json_file_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_sheets\0205_online_train_data\0205_online_train_data.json

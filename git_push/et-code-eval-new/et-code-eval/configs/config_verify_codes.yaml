@@ -1,0 +1,23 @@
+### 基本配置 ###
+# 客户端服务路径（执行样张） #
+client_path: C:\Users\Bolt\Downloads\office6\office6
+
+# 定义一个基础路径
+base_path: C:\Users\Bolt\PycharmProjects\et-code-eval\gen_codes\firet_try
+
+# 测试样例路径
+dataset:
+  cases_root_path: 2025-01-03_gen_sheet_Qwen2.5-3B-Instruct_JS_train_1121_13c_new_0.1k
+  cases_save_root_path: &save_path run_code_results
+  gen_code_cases_save_root_path: run_gen_code_results_JS_train_1210-fix-select_topk
+
+### code数据 ###
+val:
+  orig_json_file_path: JS_train_1121_13c_new_0.1k.json
+  gencode_json_file_path: post_code_JS_train_1210-fix-select_topk.json
+
+## 日志记录 ###
+log:
+  log_path: logs
+  xlsx_save_path: *save_path
+  gen_code_xlsx_save_path: run_gen_code_results_JS_train_1210-fix-select_topk
